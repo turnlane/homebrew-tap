@@ -1,6 +1,6 @@
 cask "turnlane" do
-  version "0.7.0"
-  sha256 "696e3c2fd032f930e4adf84473b9617db03d6620199ebd70351bb7a45d8acf1d"
+  version "0.7.1"
+  sha256 "ad78ce1a59975a67b53316403c99dfd3eb266eb2ce7ba78059ae2319ffb73889"
 
   url "https://github.com/turnlane/turnlane/releases/download/v#{version}/Turnlane-#{version}.zip"
   name "Turnlane"
@@ -12,6 +12,7 @@ cask "turnlane" do
     strategy :github_latest
   end
 
+  auto_updates true
   depends_on arch: :arm64
   depends_on macos: :sonoma
 
