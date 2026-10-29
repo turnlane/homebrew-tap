@@ -1,6 +1,6 @@
 cask "turnlane" do
-  version "0.7.3"
-  sha256 "8551122cd23c89c49f55c24cec021e32f8468ac8fd41840d8a6c6df99476cdd3"
+  version "0.7.4"
+  sha256 "8a35bb03e7f1adce3d66b1a4ad5c6f4e4f4622952a879b1d4d4cc8aa639209ad"
 
   url "https://github.com/turnlane/turnlane/releases/download/v#{version}/Turnlane-#{version}.zip"
   name "Turnlane"
